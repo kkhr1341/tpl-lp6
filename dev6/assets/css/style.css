@@ -188,6 +188,20 @@ h1 {
 .cl_sec03_cnt01 h2 > span {
   font-size: 4rem;
 }
+.cl_sec04 {
+  background-color: #4a4;
+}
+.cl_sec04 div {
+  width: fit-content;
+  background: #fff;
+  margin: auto;
+  border-radius: 10px;
+  padding: 50px;
+}
+.cl_sec04 div > h2 {
+  font-size: 4rem;
+  color: #388;
+}
 
 @media screen and (max-width: 1024px) {
   html {
