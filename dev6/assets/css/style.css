@@ -59,7 +59,7 @@ header {
 .cl_sec01 {
   text-align: center;
   background-color: #fff8f8;
-  background-image: url(/dev6/assets/img/te.png);
+  background-image: url(../img/te.png);
   background-size: contain;
   background-position: center center;
   background-repeat: no-repeat;
@@ -138,7 +138,7 @@ h1 {
   margin: 0 auto;
   gap: 2rem;
   padding-top: 5rem;
-  background-image: url(/dev6/assets/img/423995_s.png);
+  background-image: url(../img/423995_s.png);
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
