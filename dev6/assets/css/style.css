@@ -26,6 +26,7 @@ header {
   height: 50%;
 }
 .line_btn {
+  text-decoration: none;
   text-align: center;
   width: 40rem;
   border-radius: 3rem;
