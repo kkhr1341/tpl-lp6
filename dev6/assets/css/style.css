@@ -59,14 +59,14 @@ header {
 .cl_sec01 {
   text-align: center;
   background-color: #fff8f8;
-  background-image: url(../img/te.png);
+  background-image: url(../img/head_bg.png);
   background-size: contain;
   background-position: center center;
   background-repeat: no-repeat;
 }
 .cl_sec01_cnt01 {
   color: #070;
-  padding-top: 10rem;
+  padding: 10rem 0;
   font-weight: bold;
   text-shadow: 0 0 0.3rem #fff, 0 0 0.3rem #fff, 0 0 0.3rem #fff, 0 0 0.3rem #fff, 0 0 0.3rem #fff;
   font-size: 2rem;
@@ -138,7 +138,7 @@ h1 {
   margin: 0 auto;
   gap: 2rem;
   padding-top: 5rem;
-  background-image: url(../img/423995_s.png);
+  background-image: url(../img/sec02_bg.png);
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -174,12 +174,12 @@ h1 {
 }
 .cl_sec03 {
   background-color: #ffd;
-  padding: 5rem 0;
+  padding: 10rem 0;
 }
 .cl_sec03_cnt01 {
   background-color: #fff;
   font-size: 3rem;
-  padding: 50px;
+  padding: 5rem;
   width: fit-content;
   margin: auto;
   color: #388;
@@ -190,17 +190,18 @@ h1 {
 }
 .cl_sec04 {
   background-color: #4a4;
-  padding: 5rem 0;
+  padding: 10rem 0;
+  background-image: url(../img/4066191_s.webp);
 }
-.cl_sec04 div {
+.cl_sec04 > div {
   width: fit-content;
   background: #fff;
   margin: auto;
-  border-radius: 10px;
-  padding: 50px 200px;
+  border-radius: 1rem;
+  padding: 5rem 20rem;
   line-height: 5rem;
   font-size: 3rem;
-  border: solid 3px #000;
+  border: solid 0.3rem #000;
 }
 .cl_sec04 div > h2 {
   font-size: 4rem;
@@ -211,7 +212,57 @@ h1 {
   color: #388;
 }
 .cl_sec04 div ul {
-  margin-top: 50px;
+  margin: 5rem 0;
+}
+.cl_sec04 div li {
+  list-style-type: none;
+}
+.cl_sec04 div li > div {
+  padding: 20px 0;
+}
+.cl_sec04 h2 {
+  text-align: center;
+}
+.cl_sec04 h3 span {
+  text-decoration: underline #ffff00;
+}
+.cl_sec05 {
+  background-color: #4a4;
+  padding: 10rem 0;
+  background-image: url(../img/4066191_s.webp);
+}
+.cl_sec05 > div {
+  width: fit-content;
+  background: #fff;
+  margin: auto;
+  border-radius: 1rem;
+  padding: 5rem 20rem;
+  line-height: 5rem;
+  font-size: 3rem;
+  border: solid 0.3rem #000;
+}
+.cl_sec05 div > h2 {
+  font-size: 4rem;
+  color: #388;
+}
+.cl_sec05 div > h3 {
+  font-size: 3rem;
+  color: #388;
+}
+.cl_sec05 div ul {
+  margin: 5rem 0;
+}
+.cl_sec05 div li {
+  list-style-type: none;
+}
+.cl_sec05 div li > div {
+  padding: 20px 0;
+}
+.cl_sec05 h2 {
+  text-align: center;
+}
+.cl_sec05 h3 span {
+  text-decoration: underline #ffff00;
 }
 
 @media screen and (max-width: 1024px) {
