@@ -205,12 +205,16 @@ h1 {
   background-color: #4a4;
   padding: 10rem 0;
   background-image: url(../img/4066191_s.webp);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .cl_sec04 > div {
   box-sizing: border-box;
   width: 80%;
   background: #fff;
   margin: auto;
+  max-width: 1024px;
   border-radius: 1rem;
   padding: 5rem 10rem;
   line-height: 5rem;
@@ -249,6 +253,7 @@ h1 {
   width: 80%;
   background: #fff;
   margin: auto;
+  max-width: 1024px;
   border-radius: 1rem;
   padding: 5rem 10rem;
   line-height: 5rem;
@@ -436,10 +441,12 @@ h1 {
     padding-top: 5rem;
   }
   .cl_sec04 > div {
-    padding: 10% calc(-10px + 10%);
+    padding: 10% calc(-150px + 42%);
+    width: 95%;
   }
   .cl_sec05 > div {
-    padding: 10% calc(-10px + 10%);
+    padding: 10% calc(-150px + 42%);
+    width: 95%;
   }
   .cl_sec05 > div li {
     list-style: none;
