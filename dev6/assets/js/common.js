@@ -6,10 +6,8 @@ $(function () {
       let imgPos = $(this).offset().top;
       let scroll = $(window).scrollTop();
       let windowHeight = $(window).height();
-      if (scroll > imgPos - windowHeight + 10 && scroll < imgPos - windowHeight + windowHeight + 400) {
+      if (scroll > imgPos - windowHeight + 10) {
         $(this).addClass("js-scroll-in");
-      } else {
-        $(this).removeClass("js-scroll-in");
       }
     });
   });
@@ -19,10 +17,8 @@ $(function () {
       let imgPos = $(this).offset().top;
       let scroll = $(window).scrollTop();
       let windowHeight = $(window).height();
-      if (scroll > imgPos - windowHeight + 10 && scroll < imgPos - windowHeight + windowHeight + 400) {
+      if (scroll > imgPos - windowHeight + 10) {
         $(this).addClass("js-scroll-blur-in");
-      } else {
-        $(this).removeClass("js-scroll-blur-in");
       }
     });
   });
@@ -31,11 +27,8 @@ $(function () {
       let imgPos = $(this).offset().top;
       let scroll = $(window).scrollTop();
       let windowHeight = $(window).height();
-      if (scroll > imgPos - windowHeight + windowHeight / 5 + 50 && scroll < imgPos - windowHeight + windowHeight + 400) {
+      if (scroll > imgPos - windowHeight + windowHeight / 5 + 50) {
         $(this).addClass("effect-in");
-      } else {
-
-        $(this).removeClass("effect-in");
       }
     });
   });

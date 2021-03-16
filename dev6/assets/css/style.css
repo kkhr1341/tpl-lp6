@@ -6,6 +6,7 @@
 }
 
 html {
+  overflow-x: hidden;
   font-size: 10px;
 }
 header {
@@ -211,7 +212,7 @@ h1 {
   background: #fff;
   margin: auto;
   border-radius: 1rem;
-  padding: 5rem 20rem;
+  padding: 5rem 10rem;
   line-height: 5rem;
   font-size: 3rem;
   border: solid 0.3rem #000;
@@ -252,7 +253,7 @@ h1 {
   background: #fff;
   margin: auto;
   border-radius: 1rem;
-  padding: 5rem 20rem;
+  padding: 5rem 10rem;
   line-height: 5rem;
   font-size: 3rem;
   border: solid 0.3rem #000;
@@ -300,10 +301,99 @@ h1 {
   font-size: 4rem;
 }
 .cl_sec07 {
+  padding: 10rem 0;
+  display: grid;
+  grid-template-columns: auto;
+  max-width: 1440px;
+  min-width: 1024px;
+  place-items: center;
+  margin: 0 auto;
+  background-image: url(../img/4329520_m.webp);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.cl_sec07 > h2 {
+  font-size: 5rem;
+  color: #383;
+  text-shadow: 0 0 3px #fff;
+}
+.cl_sec07_cnt01 > div {
+  background-color: #fff;
+  border-radius: 1rem;
+  border: solid 1px #000;
+  padding: 2rem;
+  margin: 5rem;
+}
+.cl_sec07_cnt01 h3 {
+  text-decoration: underline;
+  color: #048;
+  margin-bottom: 2rem;
 }
 
 @media screen and (max-width: 1024px) {
   html {
     font-size: 6px;
   }
+  .cl_sec01_cnt02 {
+    display: grid;
+    gap: 1rem;
+    max-width: 1024px;
+    min-width: 375px;
+  }
+  .cl_sec02_cnt02 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+    max-width: 1024px;
+    min-width: 375px;
+    width: 80%;
+    margin: 0 auto;
+    gap: 2rem;
+    padding-top: 5rem;
+    background-image: url(../img/sec02_bg.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .cl_sec04 > div {
+    padding: 10% calc(-10px + 10%);
+  }
+  .cl_sec05 > div {
+    padding: 10% calc(-10px + 10%);
+  }
+  .cl_sec05 > div li {
+    list-style: none;
+    padding: 1rem 1rem;
+  }
+}
+
+.js-scroll {
+  opacity: 0;
+  transition: all 1s;
+  transform: translate(0px, 60px) scale(1.1);
+}
+.js-scroll-in {
+  opacity: 1;
+  transform: translate(0px, 0px) scale(1);
+}
+.js-scroll-blur {
+  opacity: 0;
+  transition: all 1s;
+  -webkit-filter: blur(5px);
+  filter: blur(5px);
+  transform: translate(0px, 180px);
+}
+.js-scroll-blur-in {
+  -webkit-filter: blur(0);
+  filter: blur(0);
+  opacity: 1;
+  transform: translate(0px, 0px);
+}
+.effect {
+  transition: all 1s;
+  transform: translate(0px, 240px);
+}
+.effect-in {
+  transform: translate(0px, 0px);
 }
