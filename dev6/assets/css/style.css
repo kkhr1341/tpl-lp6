@@ -320,7 +320,7 @@ h1 {
 .cl_sec07 > h2 {
   font-size: 5rem;
   color: #383;
-  text-shadow: 0 0 3px #fff;
+  text-shadow: 0 0 1px #fff, 0 0 2px #fff, 0 0 3px #fff, 0 0 4px #fff, 0 0 5px #fff;
 }
 .cl_sec07_cnt01 > div {
   background-color: #fff;
