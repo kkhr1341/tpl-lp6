@@ -54,27 +54,24 @@ header {
 }
 @keyframes lux {
   0% {
-    left: -40%;
+    right: -40%;
   }
   4% {
-    left: 150%;
-  }
-  10% {
-    left: 150%;
+    right: 150%;
   }
   100% {
-    left: 150%;
+    right: 150%;
   }
 }
 .line_btn::after {
   content: "";
   position: absolute;
   top: -10%;
-  left: -20%;
+  right: -20%;
   width: 120px;
-  height: 100%;
+  height: 150%;
   transform: scale(2) rotate(25deg);
-  background-image: linear-gradient(100deg, rgba(255, 255, 255, 0) 10%, rgba(255, 255, 255, 0.5) 100%, rgba(255, 255, 255, 0) 0%);
+  background-image: linear-gradient(300deg, rgba(255, 255, 255, 0) 10%, rgba(255, 255, 255, 0.5) 100%, rgba(255, 255, 255, 0) 0%);
   animation: lux 6s linear infinite;
 }
 .line_btn:hover {
