@@ -9,6 +9,14 @@ html {
   overflow-x: hidden;
   font-size: 10px;
 }
+body {
+  overflow-y: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+body::-webkit-scrollbar {
+  display: none;
+}
 header {
   display: grid;
   grid-template-columns: 1fr 2fr;
