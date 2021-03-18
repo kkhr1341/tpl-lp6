@@ -6,10 +6,11 @@
 }
 
 html {
-  overflow-x: hidden;
   font-size: 10px;
 }
 body {
+  width: 100vw;
+  overflow-x: hidden;
   overflow-y: scroll;
   -ms-overflow-style: none;
   scrollbar-width: none;
