@@ -26,7 +26,7 @@ header {
 }
 .top_logo {
   display: grid;
-  grid-template-columns: 1fr 7fr;
+  grid-template-columns: 1fr 6fr;
   width: 100%;
   align-items: center;
 }
