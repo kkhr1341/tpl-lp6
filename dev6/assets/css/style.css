@@ -502,7 +502,7 @@ h1 {
   .cl_sec10_cnt01 {
     font-size: 2.5rem;
   }
-  .cl_sec10_cnt01 > img {
+  .cl_sec10_cnt01 > picture {
     display: none;
   }
   .cl_sec01 {
