@@ -19,8 +19,9 @@ body::-webkit-scrollbar {
   display: none;
 }
 header {
+  height: 12rem;
   display: grid;
-  grid-template-columns: 1fr 2fr;
+  grid-template-columns: 1fr 1fr;
   padding: 1%;
 }
 .top_logo {
