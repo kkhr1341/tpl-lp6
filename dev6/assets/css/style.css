@@ -478,8 +478,6 @@ h1 {
   padding: 2rem;
   font-size: 2rem;
 }
-.cl_sec09_cnt01 dl {
-}
 .cl_sec09_cnt01 dl > * {
   padding: 2rem;
 }
@@ -525,6 +523,18 @@ h1 {
 }
 span.br {
   display: inline-block;
+}
+.cl_sec09 {
+  background-color: #dfd;
+  color: #fff;
+  padding-top: 10rem;
+  text-align: center;
+}
+.cl_sec11 * {
+  padding: 0.5rem;
+}
+.cl_sec11 h3 {
+  font-size: 3rem;
 }
 @media screen and (max-width: 1024px) {
   html {
