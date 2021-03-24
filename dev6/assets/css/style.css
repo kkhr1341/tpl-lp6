@@ -2,7 +2,9 @@
   padding: 0;
   margin: 0;
   border: 0;
-  font-family: "segoe ui", meiryo, "yu gothic", "hiragino kaku gothic pron", sans-serif;
+  font-family: maru-maru-gothic-alr-stdn, sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 html {
@@ -42,13 +44,13 @@ header {
   text-decoration: none;
   text-align: center;
   width: 40rem;
-  border-radius: 3rem;
+  border-radius: 1.5rem;
   color: #fff;
   background-color: #00c300;
   position: relative;
   justify-self: end;
-  height: 12rem;
-  box-shadow: 0 0.5rem 0.1rem #000;
+  height: 10rem;
+  box-shadow: 0 0.5rem 1.5rem #0008;
   transition: ease 0.25s;
   transform: translateY(-0.5rem);
 }
@@ -441,7 +443,7 @@ h1 {
   font-size: 3rem;
   text-align: center;
   color: #080;
-  transform: scale(1, 2.5);
+  transform: scale(5, 2.5);
 }
 .cl_sec08_cnt01_arr .sp {
   font-size: 3rem;

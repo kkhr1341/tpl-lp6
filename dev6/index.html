@@ -20,13 +20,43 @@
     <link rel="stylesheet" href="assets/css/style.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script type="text/javascript" src="assets/js/modernizr-custom.js"></script>
+    <script>
+      (function (d) {
+        var config = {
+            kitId: "rmd4bnq",
+            scriptTimeout: 3000,
+            async: true,
+          },
+          h = d.documentElement,
+          t = setTimeout(function () {
+            h.className = h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive";
+          }, config.scriptTimeout),
+          tk = d.createElement("script"),
+          f = false,
+          s = d.getElementsByTagName("script")[0],
+          a;
+        h.className += " wf-loading";
+        tk.src = "https://use.typekit.net/" + config.kitId + ".js";
+        tk.async = true;
+        tk.onload = tk.onreadystatechange = function () {
+          a = this.readyState;
+          if (f || (a && a != "complete" && a != "loaded")) return;
+          f = true;
+          clearTimeout(t);
+          try {
+            Typekit.load(config);
+          } catch (e) {}
+        };
+        s.parentNode.insertBefore(tk, s);
+      })(document);
+    </script>
   </head>
 
   <body>
     <header>
       <div class="top_logo">
         <img src="assets/img/logo.svg" alt="" />
-        <img src="assets/img/headlogo.svg" alt="" />
+        <img src="assets/img/headlogo.webp" alt="" />
       </div>
       <a class="line_btn pc" href="https://lin.ee/qexNvO9">
         <div>
