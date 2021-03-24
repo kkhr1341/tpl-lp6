@@ -37,7 +37,8 @@ header {
   height: 75%;
 }
 .top_logo > img:last-child {
-  height: 50%;
+  height: auto;
+  width: 60%;
 }
 .line_btn {
   overflow: hidden;
@@ -81,7 +82,7 @@ header {
 }
 .line_btn:active {
   background-color: #00b300;
-  box-shadow: 0 0.2rem 0 #000;
+  box-shadow: 0 0.2rem 0.5rem #000;
   transform: translateY(0);
 }
 .line_btn p {
@@ -91,13 +92,18 @@ header {
   height: 100%;
   display: grid;
   margin: auto;
-  grid-template-columns: auto auto;
+  grid-template-columns: auto auto auto;
   width: 90%;
   place-items: center;
 }
-.line_btn div img {
+.line_btn img {
   height: 8rem;
   margin: auto 0;
+}
+.line_btn img:last-child {
+  height: 50%;
+  margin: auto 0;
+  fill: #00b300;
 }
 .cl_sec01 {
   text-align: center;
@@ -378,6 +384,9 @@ h1 {
   color: #383;
   text-shadow: 0 0 1px #fff, 0 0 2px #fff, 0 0 3px #fff, 0 0 4px #fff, 0 0 5px #fff;
 }
+.cl_sec07_cnt01 {
+  max-width: 1024px;
+}
 .cl_sec07_cnt01 > div {
   background-color: #fff;
   border-radius: 1rem;
@@ -393,6 +402,9 @@ h1 {
 }
 .cl_sec07_cnt01 p {
   font-size: 1.5rem;
+}
+.cl_sec07_cnt01 p span {
+  display: inline-block;
 }
 .cl_sec08 {
   padding: 10rem 0;
@@ -439,17 +451,12 @@ h1 {
   height: 100px;
   margin: auto;
 }
-.cl_sec08_cnt01_arr .pc {
+.cl_sec08_cnt01_arr {
+  width: 150px;
   font-size: 3rem;
   text-align: center;
   color: #080;
   transform: scale(5, 2.5);
-}
-.cl_sec08_cnt01_arr .sp {
-  font-size: 3rem;
-  text-align: center;
-  color: #080;
-  transform: scale(2.5, 1);
 }
 .cl_sec09 {
   background-color: #ffd;
@@ -605,6 +612,9 @@ span.br {
   }
   .cl_sec08_cnt01 > * {
     padding: 1rem 0;
+  }
+  .cl_sec08_cnt01_arr {
+    transform: scale(2.5, 1);
   }
   .pc {
     display: none;
