@@ -12,7 +12,6 @@ html {
   overflow: auto;
 }
 body {
-  width: 100vw;
   overflow-x: hidden;
   overflow-y: scroll;
   -ms-overflow-style: none;
