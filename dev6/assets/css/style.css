@@ -2,13 +2,13 @@
   padding: 0;
   margin: 0;
   border: 0;
-  font-family: maru-maru-gothic-alr-stdn, sans-serif;
-  font-weight: 400;
-  font-style: normal;
 }
 
 html {
   font-size: 10px;
+  font-family: maru-maru-gothic-alr-stdn, sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 body {
   width: 100vw;
@@ -669,4 +669,53 @@ span.br {
 }
 .effect-in {
   transform: translate(0px, 0px);
+}
+
+.ft_mod a {
+  text-decoration: underline;
+  color: #008;
+}
+.featherlight-sample {
+  display: none;
+  max-width: 1024px;
+  font-family: "segoe ui", meiryo, "yu gothic", "hiragino kaku gothic pron", sans-serif;
+}
+#law h3 {
+  padding: 5px 0;
+  text-align: center;
+  font-size: 2.5rem;
+}
+#law table,
+#law th,
+#law td {
+  border: 1px solid #4a4;
+}
+#law th,
+#law td {
+  padding: 2px;
+}
+#law th {
+  font-weight: normal;
+}
+#privacy > div > div,
+#privacy > div > div > div > div {
+  padding: 5px;
+}
+#privacy > div > div > div {
+  padding: 5px 0;
+}
+#privacy h3 {
+  padding: 5px 0;
+  text-align: center;
+  font-size: 3rem;
+}
+#privacy h4 {
+  font-size: 2rem;
+}
+#privacy ul {
+  padding: 5px;
+  padding-right: 0;
+}
+#privacy ul {
+  list-style: decimal inside;
 }
