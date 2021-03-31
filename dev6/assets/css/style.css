@@ -526,7 +526,7 @@ span.br {
 .cl_sec11 {
   background: #8d8;
   color: #000;
-  padding-top: 10rem;
+  padding-top: 5rem;
   text-align: center;
 }
 .cl_sec11 * {
@@ -718,4 +718,7 @@ span.br {
 }
 #privacy ul {
   list-style: decimal inside;
+}
+footer {
+  font-size: 1.6rem;
 }
